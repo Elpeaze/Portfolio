@@ -1,0 +1,135 @@
+* {
+	margin : 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* outline: 2px solid brown; */
+	font-family: 'Arial', sans-serif;
+}
+
+body {
+	background-color: rgb(46, 4, 88);
+	/* margin: 10px 0; */ 
+}
+
+.header {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	align-items: center;
+	margin: 20px;
+	width: 400px;
+}
+
+h1.forHeader {
+	color: whitesmoke;
+	margin: 20px;
+	margin-right: auto;
+}
+
+.link#display {
+	width: 400px;
+	padding: 0 20px;
+}
+
+.midsection1, 
+.midsection2 {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 10px auto;
+	padding: 20px;
+/* 	height: 400px;
+	width: 100%; */
+}
+
+.midsecContainer {
+	display: flex;
+	/* background-image: url(./img/pexels-taryn-elliott-5405597.jpg); */
+	/* background-color: rgb(243, 207, 252); */
+}
+
+.midsecContainer2 {
+	display: flex;
+	/* background-image: url(./img/pexels-taryn-elliott-5405597.jpg); */
+	/* background-color: rgb(243, 207, 252); */
+	
+}
+
+.container {
+	display: flex;
+	flex: 1;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+	/* gap: 20px; */
+}
+
+.container2 {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+/* 	justify-content: center;
+	align-items: center; */
+}
+
+.getStarted, 
+.fillForm, 
+.button {
+	margin: 0 auto;
+	padding: 20px;
+	width: 400px;
+}
+
+.getStarted {
+	background-color: rgb(212, 238, 247);
+	height: 50px;
+	border-radius: 5px 15px 15px 5px;
+}
+
+.fillForm {
+	color: white;
+	background-color: rgb(126, 161, 68);
+	height: 300px;
+	border-radius: 15px 35px 15px 35px;
+}
+
+img.imageStyle {
+	border-radius: 25px;
+}
+
+.button {
+	/* align-self: flex-end; */
+	font-size: large;
+	font-weight: 900;
+	background-color: rgb(10, 10, 10);
+	height: 50px;
+	width: 100%;
+	border-radius: 18px;
+}
+
+.button a {
+	color: white;
+	;
+}
+
+.midsection2 img {
+	border-radius: 100px;
+}
+
+.midsection2 p {
+	color: white;
+	font-size: 17px;
+	font-weight: 900;
+}
+
+.footer {
+	background-color: darkblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
