@@ -47,14 +47,21 @@ h1.forHeader {
 	width: 100%; */
 }
 
+.midsection2 {
+	flex-direction: column;
+	gap: 20px;
+}
+
 .midsecContainer {
 	display: flex;
+	gap: 20px;
 	/* background-image: url(./img/pexels-taryn-elliott-5405597.jpg); */
 	/* background-color: rgb(243, 207, 252); */
 }
 
 .midsecContainer2 {
 	display: flex;
+	gap: 20px;
 	/* background-image: url(./img/pexels-taryn-elliott-5405597.jpg); */
 	/* background-color: rgb(243, 207, 252); */
 	
@@ -132,4 +139,9 @@ img.imageStyle {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.midsecContainer p,
+.midsecContainer2 p {
+	align-self: center;
 }
