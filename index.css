@@ -135,6 +135,7 @@ img.imageStyle {
 .button a {
 	color: white;
 	text-decoration: none;
+	align-content: center;
 }
 
 .midsection2 img {
@@ -180,9 +181,18 @@ img.imageStyle {
 	
 }
 
+.socials {
+	background: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+	gap: 20px;
+}
+
 .footer {
 	padding: 10px;
-	background-color: darkblue;
+	background-color: rgb(157, 157, 160);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
