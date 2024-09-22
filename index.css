@@ -48,6 +48,14 @@ h1.forHeader {
 	text-decoration: none;
 }
 
+.link#display a:hover {
+	color: cadetblue;
+}
+
+.link#display a:active {
+	color: burlywood;
+}
+
 .midsection1, 
 .midsection2 {
 	display: flex;
@@ -66,7 +74,7 @@ h1.forHeader {
 	background:rgba(10, 10, 10, 0.719);
 	flex-direction: column;
 	gap: 20px;
-	margin: 10px auto 0 auto;
+	margin:  0 auto;
 }
 
 .midsecContainer {
@@ -76,12 +84,51 @@ h1.forHeader {
 	/* background-color: rgb(243, 207, 252); */
 }
 
+/* MIDSEC CONTAINER2 STYLE */
+
 .midsecContainer2 {
 	display: flex;
 	gap: 20px;
 	/* background-image: url(./img/pexels-taryn-elliott-5405597.jpg); */
 	/* background-color: rgb(243, 207, 252); */
 	
+}
+
+/* INSIGHT SECTION STYLE */
+
+.insightSection {
+	display: flex;
+	flex-direction: column;
+	background-color: aliceblue;
+	height: 300px;
+	gap: 40px;
+}
+
+.subInsightSection h3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: rgb(41, 182, 192);
+	font-size: x-large;
+	font-weight: 400;
+}
+
+.subInsightSection {
+	display: flex;
+	justify-content: space-around;
+}
+
+.iconDivs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.iconDivs p {
+	color: chocolate;
 }
 
 .container {
@@ -102,8 +149,8 @@ h1.forHeader {
 }
 
 .getStarted, 
-.fillForm, 
-.button {
+.fillForm/* , 
+.button */ {
 	margin: 0 auto;
 	padding: 20px;
 	width: 400px;
@@ -117,9 +164,10 @@ h1.forHeader {
 
 .fillForm {
 	color: white;
-	background-color: rgb(126, 161, 68);
+	background-color: rgb(87, 121, 32);
 	height: 300px;
 	border-radius: 15px 35px 15px 35px;
+	font-weight: 800;
 }
 
 img.imageStyle {
@@ -262,8 +310,9 @@ img.imageStyle {
 	padding: 10px;
 	background-color: rgb(157, 157, 160);
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
+	font-weight: 700;
 }
 
 .midsecContainer p,
