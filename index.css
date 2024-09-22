@@ -159,12 +159,12 @@ img.imageStyle {
 }
 
 .midsection3 h2 {
-	background: rgba(185, 247, 226, 0.767);
+	background: rgba(223, 251, 253, 0.767);
 	font-size: 30px;
 	text-align: center;
 	padding: 15px;
-	border-bottom: 10px solid rgba(187, 56, 8, 0.726);
-	border-radius: 0 0 15px 15px;
+	/* border-bottom: 10px solid rgba(187, 56, 8, 0.726); */
+	/* border-radius: 0 0 15px 15px; */
 }
 
 .midsec3Container {
@@ -181,8 +181,72 @@ img.imageStyle {
 	gap: 20px;
 }
 
-.typograph h3 {
-	
+#aboutKronotec h3 {
+	background-color: rgb(221, 134, 28);
+	color: aliceblue;
+	padding: 10px;
+	font-weight: 900;
+	border-radius: 15px;
+}
+
+#aboutKronotec p {
+	background-color: rgb(48, 72, 116);
+	color: white;
+	padding: 10px;
+	font-weight: 500;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#mission h3 {
+	background-color: rgb(20, 109, 20);
+	color: aliceblue;
+	padding: 10px;
+	font-weight: 900;
+	border-radius: 15px;
+}
+
+#mission p {
+	background-color: rgb(48, 72, 116);
+	color: white;
+	padding: 10px;
+	font-weight: 500;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#whyChoose h3 {
+	background-color: rgb(204, 204, 65);
+	color: aliceblue;
+	padding: 10px;
+	font-weight: 900;
+	border-radius: 15px;
+}
+
+#whyChoose p {
+	background-color: rgb(48, 72, 116);
+	color: white;
+	padding: 10px;
+	font-weight: 500;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#vision h3 {
+	background-color: rgb(16, 16, 175);
+	color: aliceblue;
+	padding: 10px;
+	font-weight: 900;
+	border-radius: 15px;
+}
+
+#vision p {
+	background-color: rgb(48, 72, 116);
+	color: white;
+	padding: 10px;
+	font-weight: 500;
+	border-radius: 15px;
+	text-align: center;
 }
 
 .socials {
